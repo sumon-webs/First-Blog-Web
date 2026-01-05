@@ -7,7 +7,10 @@ body{
     max-width: 1120px;
     margin: 0 auto;
 }
-
+main{
+    background-color: rgb(238, 236, 236);
+    box-shadow: 6px 5px 23px rgb(238, 235, 232);
+}
 
 header, marquee{
     background-color: rgb(204, 12, 124);
@@ -46,10 +49,11 @@ nav, .nav, li, a{
 
 .welcome-container{
     width: 100%;
-    height: 300px;
-    background-color: rgb(238, 235, 232);
+    height: 400px;
+    background-color: rgb(250, 218, 192);
     text-align: center;
     align-content: center;
+    border-radius: 6px;
 }
 
 .welcome{
@@ -67,21 +71,59 @@ nav, .nav, li, a{
     font-size: 1.3em;
     border-radius: 9px ;
 }
-.vinnojogot_containter{
+.images_containter{
     text-align: center;
     justify-items: center;
     margin-top: 43px;
 }
-.vinnojogot_containter h1{
+.images_containter h1{
     margin-bottom: 21px;
 }
-.vinnojogot_containter img{
+.images_containter img{
     width: 80%;
     height: 600px;
     display: block;
     margin-bottom: 25px;
+    border-radius: 7px;
+    box-shadow: 5px 6px 43px rgb(138, 132, 127);
 }
-.vinnojogot_containter a{
+.images_containter a{
     color: rgb(95, 173, 173);
     font-size: 1em;
+}
+.hr hr{
+    margin: 15px 0px ;
+}
+.footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.footer-icons {
+    margin-bottom: 15px;
+}
+
+.footer-icons a {
+    color: #fff;
+    font-size: 22px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.footer-icons a:hover {
+    color: #00c3ff;
+    transform: scale(1.2);
+}
+
+.footer p {
+    font-size: 14px;
+    color: #ccc;
 }
