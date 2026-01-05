@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    margin: 21px 0px;
+}
+.sumon-container{
+    width: 400px;
+    height: fit-content;
+    background-color: aliceblue;
+    padding: 12px 14px;
+    border-radius: 6px; 
+    box-shadow: 4px 4px 15px silver;   
+}
+.sumon img{
+    height: 400px;
+    width: 100%;
+    border-radius: 6px;
+}
+.sumon a{
+    font-size: 12px;
+    margin: 9px 0px;
+    font-weight: 400;
+}

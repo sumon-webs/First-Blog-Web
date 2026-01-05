@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+
+header, marquee{
+    background-color: rgb(204, 12, 124);
+    padding-top: 3px;
+    color: white;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    font-size: 1em;
+    background-color: aliceblue;
+}
+
+nav, ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav, ul, li{
+    list-style: none;
+}
+
+nav, .nav, li, a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 4px;
+    font-size: 20px;
+}
+
+ ul, a:hover{
+    color: rgb(85, 79, 70);
+}
+
+.welcome-container{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(238, 235, 232);
+    text-align: center;
+    align-content: center;
+}
+
+.welcome{
+    font-size:4em;
+}
+
+.welcome-container p{
+    font-size: 1.3em;
+    padding-bottom: 12px;
+}
+.welcome-container      a{
+    color: white;
+    background-color: blue;
+    padding: 7px 21px;
+    font-size: 1.3em;
+    border-radius: 9px ;
+}
+.vinnojogot_containter{
+    text-align: center;
+    justify-items: center;
+    margin-top: 43px;
+}
+.vinnojogot_containter h1{
+    margin-bottom: 21px;
+}
+.vinnojogot_containter img{
+    width: 80%;
+    height: 600px;
+    display: block;
+    margin-bottom: 25px;
+}
+.vinnojogot_containter a{
+    color: rgb(95, 173, 173);
+    font-size: 1em;
+}

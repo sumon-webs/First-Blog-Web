@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.vinnojogot{
+    text-align: center;
+    margin-top: 34px;
+}
+.vinnojogot img{
+    height: 450px;
+    width: 400px;
+    margin: 12px;
+    cursor: pointer;
+}
+.vinnojogot h3{
+    margin-bottom: 21px;
+}
