@@ -57,8 +57,8 @@ form{
     width: fit-content;
     height: fit-content;
     border-radius: 5px;
-    box-shadow: 4px 3px 23px rgb(125, 125, 209);
-    background-color: rgb(189, 190, 192);
+    box-shadow: 4px 3px 9px rgb(125, 125, 209);
+    background-color: rgb(242, 244, 247);
 }
 form label{
     font-size: 1.5em;

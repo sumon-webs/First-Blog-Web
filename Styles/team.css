@@ -1,22 +1,45 @@
-h1{
+section{
+    background-color: rgb(238, 236, 236);
+    box-shadow: 6px 5px 23px rgb(238, 235, 232);
+    border-radius: 6px;
+}
+.my-team{
+    padding-top: 12px;
     text-align: center;
     margin: 21px 0px;
 }
-.sumon-container{
-    width: 400px;
+.sumon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px; 
+    padding-bottom: 22px;
+}
+.image{
+    width: 300px;
     height: fit-content;
     background-color: aliceblue;
     padding: 12px 14px;
     border-radius: 6px; 
     box-shadow: 4px 4px 15px silver;   
+    margin-top: 21px;
 }
-.sumon img{
-    height: 400px;
+.image img{
+    height: 300px;
     width: 100%;
     border-radius: 6px;
 }
-.sumon a{
+.image a{
     font-size: 12px;
     margin: 9px 0px;
     font-weight: 400;
+}
+
+.end-part p{
+    margin-bottom: 30px;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+.end-part span{
+    font-size: 1.5em;
 }
