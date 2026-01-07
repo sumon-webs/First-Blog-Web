@@ -9,8 +9,8 @@ body{
     margin: 0 auto;
 }
 main{
-    background-color: rgb(238, 236, 236);
-    box-shadow: 6px 5px 23px rgb(238, 235, 232);
+    /* background-color: rgb(238, 236, 236); */
+    /* box-shadow: 6px 5px 23px rgb(238, 235, 232); */
 }
 
 header, marquee{
@@ -86,7 +86,7 @@ nav, .nav, li, a{
     display: block;
     margin-bottom: 25px;
     border-radius: 7px;
-    box-shadow: 5px 6px 43px rgb(138, 132, 127);
+    /* box-shadow: 5px 6px 43px rgb(138, 132, 127); */
 }
 .images_containter a{
     color: rgb(95, 173, 173);
